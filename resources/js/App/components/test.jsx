@@ -1,5 +1,5 @@
 import { Button } from '@mui/material';
-
+import kep from '../../../../storage/app/public/Images/erdo.png';
 function TestComponent() {
   return (
     <div className="container">
@@ -8,7 +8,7 @@ function TestComponent() {
           <div className="card">
             <div className="card-header">Test Component</div>
             <Button variant="outlined">Gomb</Button>
-            <Button></Button>
+            <img src={kep} alt="Logo" />;
           </div>
         </div>
       </div>
